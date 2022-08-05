@@ -1,0 +1,112 @@
+.Header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    /*background: #9c2af5;*/
+    border-radius: 0 0 10px 10px;
+}
+
+.Header ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+}
+
+.Header li {
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+.Header a {
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    transition: .3s;
+    font-weight: 800;
+}
+
+.Header a:hover {
+    font-size: x-large;
+    transition: .3s;
+    color: wheat;
+    text-shadow: #1c1c1c 0 0 10px;
+}
+
+.Header a:active {
+    font-size: x-large;
+    color: #f5ed63;
+    font-weight: 800;
+}
+
+.Header .active {
+    font-size: x-large;
+    color: wheat;
+}
+
+.Header img {
+    width: 60px;
+    margin-left: 80px;
+    border-radius: 10px 0 10px;
+    transition: .3s;
+    box-shadow: #1c1c1c 0 0 5px;
+}
+
+.Header img:hover {
+    transform: scale(1.3);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.ChangeTheme {
+    width: 20%;
+    display: flex;
+    margin-right: 40px;
+    color: darkslategray;
+}
+
+.ChangeTheme input {
+    margin-left: 20px;
+}
+
+.labelLight {
+    color: honeydew;
+    margin-left: 5px;
+}
+
+.labelDark {
+    color: black;
+    margin-left: 5px;
+}
+
+/*----------------------*/
+@media (max-width: 767px) {
+    .Header {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .Header img {
+        margin-left: 40px;
+    }
+
+    .Header li {
+        margin-left: 4%;
+    }
+}
+
+@media (max-width: 500px) {
+    .Header img {
+        margin-left: 5px;
+    }
+    .ChangeTheme {
+        justify-content: center;
+    }
+}

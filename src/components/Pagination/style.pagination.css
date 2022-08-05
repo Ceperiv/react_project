@@ -1,0 +1,38 @@
+.Pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Pagination  ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.Pagination li{
+    margin: 5px;
+    cursor: pointer;
+    color: grey;
+}
+
+.Pagination .selected{
+    font-size: larger;
+    color: wheat;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0 8px;
+    border-radius: 5px;
+}
+
+.Pagination a{
+    transition: .3s;
+}
+
+.Pagination a:hover{
+    font-size: larger;
+    transition: .3s;
+    color: #931818;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0 3px;
+    border-radius: 5px;
+}

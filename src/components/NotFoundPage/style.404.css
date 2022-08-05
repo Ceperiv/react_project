@@ -1,0 +1,11 @@
+.NotFoundPage{
+ width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NotFoundPage img{
+    border-radius: 5px;
+    box-shadow: #525050 0 0 10px;
+}

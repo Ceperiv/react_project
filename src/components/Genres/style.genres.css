@@ -1,0 +1,58 @@
+.Genres {
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.Genres ul {
+    position: sticky;
+    left: 0;
+    top: 2%;
+    list-style-type: none;
+    font-size: large;
+    font-weight: 700;
+}
+
+.Genres a {
+    text-decoration: none;
+    color: grey;
+    font-size: medium;
+    transition: .3s;
+    opacity: .6;
+}
+
+.Genres .active {
+    color: #eaa422;
+    font-size: large;
+    letter-spacing: .1em;
+    opacity: 1;
+    text-shadow: wheat 0 0 5px;
+}
+
+.Genres a:hover {
+    color: gray;
+    font-size: large;
+    transition: .3s;
+    opacity: 1;
+    text-shadow: grey 0 0 10px;
+}
+
+.Genres a:active {
+    font-size: x-large;
+    opacity: 1;
+}
+
+.Genres .ClipLoader {
+    position: absolute;
+    left: calc(50% - 35px);
+    top: 40vh;
+}
+
+/*-------------------*/
+
+@media (max-width: 767px) {
+    .Genres {
+        width: 30%;
+    }
+}

@@ -1,0 +1,18 @@
+export * from './GenresComponents/GenresComponents'
+export * from './Header/Header'
+export * from './MoviesListCard/MoviesListCard'
+export * from './MovieInfo/MovieInfo'
+export * from './PosterPreview/PosterPreview'
+export * from './StarsRating/StarsRating'
+export * from './Routers/Routers'
+export * from './SingleMovieInfoImg/SingleMovieInfoImg'
+export * from './SingleInfo/SingleInfo'
+export * from './Genres/Genres'
+export * from './Pagination/Pagination'
+export * from './BadgeComponent/BadgeComponent'
+export * from './Footer/Footer'
+export * from './ChangeTheme/ChangeTheme'
+export * from './NotFoundPage/NotFoundPage'
+export * from './Errors/Errors'
+
+
