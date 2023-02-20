@@ -8,8 +8,8 @@
 git clone https://github.com/Ceperiv/react_project.git
 
 ##	Movie DB
-<h4>Project Description: <i>Site for the presentation of movies info.</i></h4> 
-<h4>Project Role:	<i>Frontend developer</i></h4>
-<h4>Project Team Size: <i>1 team member</i></h4>
+<h4>Project Description: <p>Site for the presentation of movies info.</p></h4> 
+<h4>Project Role:	<p>Frontend developer</p></h4>
+<h4>Project Team Size: <p>1 team member</p></h4>
 <h4>Tools & Technologies: <i>JS/HTML/CSS/React/React Redux</i></h4>
 
