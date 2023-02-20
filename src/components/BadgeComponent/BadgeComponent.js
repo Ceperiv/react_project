@@ -4,10 +4,10 @@ import {Badge} from 'rsuite';
 function BadgeComponent({movie}) {
 
     let dateRelease = '';
-    if(movie.release_date){
-        dateRelease = movie.release_date
+    if(movie['release_date']){
+        dateRelease = movie['release_date']
     } else {
-        dateRelease = movie.first_air_date
+        dateRelease = movie['first_air_date']
     }
 
     const [year, month, day] = dateRelease.split('-')
