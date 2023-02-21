@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/99511070/220112690-dd313203-4b9d-4b85-bae8-a4a901a89bd4.png)
 ![image](https://user-images.githubusercontent.com/99511070/220113913-25337284-e601-4b56-8fd7-329242f7cc40.png)
 
-
+For display:
 1) cmd (command line)
 2) npm install
 3) git clone https://github.com/Ceperiv/react_project.git
