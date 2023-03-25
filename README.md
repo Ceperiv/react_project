@@ -7,8 +7,8 @@
 For display:
 1) cmd (command line)
 2) git clone https://github.com/Ceperiv/react_project.git
-3) npm install
-4) cd react_project
+3) cd react_project
+4) npm install 
 5) npm start
 6) Enjoy
 
